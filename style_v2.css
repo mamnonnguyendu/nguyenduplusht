@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf2;
+    margin: 0;
+    padding: 0;
+    color: #4b2e1e;
+}
+
+.hero {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.school-name {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.school-slogan {
+    font-style: italic;
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #a9743c;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #8b5e2c;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+h2 {
+    color: #804f23;
+    border-bottom: 2px solid #e3c8a3;
+    padding-bottom: 6px;
+}
+
+footer {
+    background-color: #a9743c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
